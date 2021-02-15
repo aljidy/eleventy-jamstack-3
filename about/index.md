@@ -5,6 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: About Me
   order: 3
+replaceme:
 ---
 
-I am a person that writes stuff.
+The date today is {{ "now" | date: "%Y-%m-%d" }} and I'm feelin a-ok!
