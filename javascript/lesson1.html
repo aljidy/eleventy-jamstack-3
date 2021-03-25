@@ -1,0 +1,23 @@
+---
+title: JS Lesson - Lesson 1
+description: This is a post on My Blog about agile frameworks.
+layout: layouts/base.njk
+templateClass: tmpl-javascript
+tags: javascript
+---
+
+{% set js %}
+  {% include "scripts/lesson1.js" %}
+{% endset %}
+
+<h1>{{title}}</h1>
+
+<pre>
+    <code>
+        {{js | safe}}
+    </code>
+</pre>
+
+<script>
+    {{js | safe}}
+</script>

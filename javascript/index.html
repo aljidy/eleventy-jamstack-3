@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+title: Javascript Lessons
+templateClass: tmpl-javascript
+eleventyNavigation:
+  key: Javascript Lessons
+  order: lastest
+---
+
+<h1>{{title}}</h1>
+
+{% for lesson in collections.javascript%}
+  <p>
+    {{lesson.data.title}} - <a href="{{lesson.url}}">{{lesson.url}}</a>
+  </p>
+{%endfor%}
