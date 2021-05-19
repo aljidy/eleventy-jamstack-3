@@ -1,7 +1,7 @@
 ---
 title: Everboard post!.
 description: Check it out.
-tags: cohort3_are_best_cohort
+tags: cohort6_are_best_cohort
 layout: layouts/post.njk
 ---
 
